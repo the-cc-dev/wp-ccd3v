@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "fonts": {
+      "files": ["fonts/**/*"],
+      "bower": ["bootstrap","font-awesome"]
+    },  
+    "images": {
+      "files": ["imgs/**/*"]
+    },
+    "scripts.min.js": {
+      "bower": [
+          "angular",
+          "angular-material",
+          "angular-animate",
+          "angular-aria",
+          "vue",
+          "vuex",
+          "jquery",
+          "bootstrap"],    
+      "files": ["js/**/*"],
+      "main": true
+    },
+    "styles.css": {
+      "bower": ["font-awesome","bootstrap"],    
+      "files": ["scss/main.scss"],
+      "main": true
+    }
+  },
+  "paths": {
+    "source": "assets/",
+    "dist": "dist/"
+  },
+  "config": {
+    "devUrl": "http://localhost:8888/ccdev/"
+  }
+}

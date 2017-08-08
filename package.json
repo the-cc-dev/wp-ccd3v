@@ -1,0 +1,72 @@
+{
+  "name": "wp-ccd3v",
+  "version": "0.0.0",
+  "author": "the-cc-dev <the.cc.dev@gmail.com>",
+  "homepage": "http://www.ccd3v.net/",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/the-cc-dev/wp-ccd3v.git"
+  },
+  "bugs": {
+    "url": "https://github.com/the-cc-dev/wp-ccd3v/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "build": "bower install && gulp",
+    "jshint": "gulp jshint",
+    "jscs": "jscs gulpfile.js assets/scripts/*.js"
+  },
+  "engines": {
+    "node": ">= 4.5"
+  },
+  "devDependencies": {
+    "asset-builder": "^1.1.0",
+    "browser-sync": "2.6.5",
+    "cssnano": "^3.10.0",
+    "del": "^2.2.2",
+    "file-loader": "^0.11.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "2.1.0",
+    "gulp-cache": "0.2.8",
+    "gulp-changed": "^3.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-flatten": "^0.3.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "2.2.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-less": "^3.3.2",
+    "gulp-merge": "^0.1.1",
+    "gulp-plumber": "1.0.0",
+    "gulp-rename": "1.2.2",
+    "gulp-rev": "^8.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gutil": "^1.6.4",
+    "html-loader": "^0.5.0",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.0.1",
+    "lazypipe": "^1.0.1",
+    "less": "^2.7.2",
+    "merge-stream": "^1.0.1",
+    "minimist": "^1.2.0",
+    "raw-loader": "^0.5.1",
+    "run-sequence": "^2.0.0",
+    "traverse": "^0.6.6",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.4.0",
+    "wiredep": "^4.0.0"
+  },
+  "dependencies": {
+    "foundation-sites": "^6.4.1"
+  }
+}

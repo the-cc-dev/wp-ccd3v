@@ -1,0 +1,25 @@
+{
+  "name": "wp-ccd3v",
+  "homepage": "http://www.ccd3v.net/",
+  "authors": [
+    "the-cc-dev <the.cc.dev@gmail.com>"
+  ],
+  "description": "ccd3v wordpress starter theme",
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "angular": "^1.6.5",
+    "angular-material": "^1.1.4",
+    "vue": "^2.4.2",
+    "vuex": "^2.3.0",
+    "foundation-sites": "^6.4.1"
+  }
+}
